@@ -1,0 +1,67 @@
+
+footer {
+	border-top: 3px solid;
+}
+.typography, .color_scheme {
+	padding: 1em;
+}
+#header {
+	border-top: 3px solid;
+	font-size: 20px;
+}
+#link {
+	border-top: 3px solid;
+}
+.typography {
+	font-size: 18px;
+}
+#change {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+#change1 {
+	background-color: black;
+	text-align: center;
+	color: yellow;
+}
+#change2 {
+	background-color: yellow;
+	text-align: center;
+	color: black;
+}
+
+
+#vertical_nav	
+{ 
+	border: solid 0.1em #e1e1e1; 
+	border-radius: 1em; 
+	margin: 0; 
+	padding: 0 0.5em 1.5em 0.5em; 
+	width: 10em;
+	color: inherit; 
+	background-color: inherit; 
+}
+
+body {			
+	max-width: 960px;
+	margin: 10px auto;
+	background-color: lightcoral;
+	opacity: .7;
+}
+html { 
+	background: url("ob.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}  
+div {
+	margin: 0.5em;
+	padding: 0.5em;
+	border-radius: 10px;
+	border: 2px dotted rgb(68, 170, 68);
+	border-image: none;
+	width: 5em;
+	text-align:
+	center;
+}

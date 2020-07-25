@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Selectors</title>
+	<meta name="Zarina" content="Zarina Ali" />
+	<meta name="description" content="Web development exercises" />
+	<link href="selectorscss.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<article>
+		<header>
+			<h1>Zarina Ali C3513534 Group: 4C1</h1>	
+			<nav>
+				<section id="link">
+					<ul>Click each of the following hyperlinks to see the rest of the HTML exercises:
+						<li><a href="structurehtml.html">Structure</a></li>
+						<li><a href="commonelementshtml.html">Common Elements</a></li>
+						<li><a href="cvhtml.html">CV</a></li>
+						<li><a href="htmlnecessary.html">HTML Necessary</a></li>
+					</ul>
+					<ul>Click each of the following hyperlinks to see the rest of the CSS exercises:
+						<li><a href="selectorshtml.html">Selectors</a></li>
+						<li><a href="commoncss.html">Common CSS</a></li>
+					</ul>
+				</section>
+			</nav>
+		</header>
+		<section id="header">
+			<h1>Different Types of Selectors:</h1>
+		</section>
+		<section id="type_selector">
+			<p class="highlight">
+				<strong>Type selectors-</strong> Any HTML element can be a type selector, e.x. article, header, h1, nav etc. CSS can be applied to any element and all occurances of that element.
+			</p>
+		</section>
+		<section id="class_selector">
+			<p class="highlight">
+				<strong>Class selectors-</strong> Unlike an id, a class attribute can be applied to many occurances of a specific element, the element belongs to the class. For example, the class "highlight" has been used throughout (the class "highlight" seperates the sections where they are developed in css to have a pink background) and a selector would select all of the elements with a class value, highlight allowing for CSS rules to be applied to the whole section of elements.
+			</p>
+		</section>
+		<section id="id_selector">
+			<p class="highlight">
+				<strong>ID selectors-</strong> Can have different values if the user declares them seperately. For example, this sections id is "id_selector" which can be uniquely selected as it's id has unique values.
+			</p>
+		</section>
+		<section id="psuedo_selector">
+			<p class="highlight">
+				<strong>Psuedo selectors-</strong> Used to define a special state of an element. For example, it can be used to style an element when a user mouses over it, style visited and unvisited links and style an element when it gets clicked on -a:link, a:visited, a:hover, a:active-
+			</p>
+		</section>
+		<section id="combine_selector">
+			<div class="highlight"> <!-- changed <p class="highlight" into div to include <ul> -->
+				<p><strong>Selector Combination Based on the DOM Relationship-</strong> A combination is something that explains the relationship between the selectors, a CSS selector can contain more than one simple selector. There are four different combinators in CSS:<ul><li>Descendant selector (space)</li><li>Child selector (>)</li><li>Adjacent sibling selector (+)</li><li>General sibling selector (~)</li></ul>
+			</p>
+		</div>
+		</section>
+		<section>
+			<ul class="ul"><strong>Extra Information:</strong>
+				<li>Selectors can be combined! -footer > h1 selects only the h1 element that is the child of the footer element-</li>
+				<li>Selectors can be specified as a comma seperated list to have the same CSS rule! -div, h1 { color: red;} selects all div and h1 elements, whereas without a comma this selects only the h1 within the div element.</li>
+			</ul>
+		</section>
+		<footer>	
+			<p>Created by me! Copyright 2018 &copy;</p>	
+		</footer>
+	</article>
+</body>
+</html>

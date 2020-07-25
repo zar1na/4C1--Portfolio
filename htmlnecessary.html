@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>HTML Necessary</title>
+	<meta charset="utf-8" />
+	<meta name="Zarina" content="Zarina Ali" />
+	<meta name="description" content="Web development exercises" />
+	<link href="htmlnecessary.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<article>
+		<header>
+			<h1>Zarina Ali C3513534 Group: 4C1</h1>	
+			<nav>
+				<section id="link">
+					<ul>Click each of the following hyperlinks to see the rest of the HTML exercises:
+							<li><a href="structurehtml.html">Structure</a></li>
+							<li><a href="commonelementshtml.html">Common Elements</a></li>
+							<li><a href="cvhtml.html">CV</a></li>
+							<li><a href="htmlnecessary.html">HTML Necessary</a></li>
+						</ul>
+						<ul>Click each of the following hyperlinks to see the rest of the CSS exercises:
+							<li><a href="selectorshtml.html">Selectors</a></li>
+							<li><a href="commoncss.html">Common CSS</a></li>
+						</ul>
+				</section>
+			</nav>
+		</header>
+		<section id="header">
+			<h1>HTML Necessary:</h1>
+		</section>
+		<section id="graphics">
+			<h1>Graphics</h1>
+			<p><img id="ex_float" src="macc.jpg" /></p>
+			<p><strong>JPEG (24 bit, 17 million colours, lossy*, does not support transparency nor animation)</strong>- Suitable for: photographs, graphics with colour gradient</p>
+			<p><img id="ex_float" src="macc.png" /></p>
+			<p><strong>PNG (8, 24, 32 bit, 4 billion colours, lossless, supports transparency, no animation)</strong>- General purpose</p>
+			<p><img id="ex_float" src="macc.gif" /></p>
+			<p><strong>GIF (8 bit, 256 colours, loss less*, supports transparency and animation)</strong>- Suitable for: icons, logos, animated banners, cartoon graphics</p>
+		</section>
+		<section id="audio">
+			<h1>Audio</h1> <!-- AUDIO NOT FINISHED -->
+			<audio controls="controls">
+				<source src="fur_elise.webm" type="audio/webm" />
+				<source src="fur_elise.ogv" type="audio/ogg" />
+				Your browser does not support the audio element.
+			</audio>
+		</section>
+		<section id="video">
+			<h1>Video</h1>
+			<video controls="controls">
+				<source src="physics_works.webm" type='video/webm; codecs="vp8, vorbis"' />
+				<source src="physics_works.ogg" type="video/ogg; codecs='theora, vorbis'" />
+				Your browser does not support the video element.
+			</video>
+		</section>
+		<section id="form">
+			<h1>Forms</h1>
+			<form method="get" action="htmlnecessaryansw"> <!-- login widget, COULD LOGIN TO SEE THE REST-->
+				<label for="email">Email: </label>
+				<input type="text" id="email" name="email" />
+				<label for="password">Password: </label>
+				<input type="password" id="password" name="password" />
+				<button type="submit" value="submit">Sign in</button>
+			</form>
+			<p>Choose your favourite colour:	<!-- Radio button widget -->
+				<input type="radio" name="colour" value="red" checked="checked" /> Red
+				<input type="radio" name="colour" value="green" /> Green
+				<input type="radio" name="colour" value="blue" /> Blue
+			</p>
+			<p>Select your favourite colour(s): <!-- Check box widget -->
+				<input type="checkbox" name="red" value="true" checked="checked" /> red
+				<input type="checkbox" name="green" value="true" /> green
+				<input type="checkbox" name="blue" value="true" checked="checked" /> blue
+			</p>
+			<form method="post" enctype="multipart/form-data" action="my_server_prog">
+				<p>
+					<label for="fileupload">Please choose a file to upload: </label> <!-- File picker widget -->
+					<input type="file" id="fileupload" name="file1" />
+				</p>
+			</form>
+		</section>
+		<section>
+			<h1>Tables</h1>
+			<table>
+				<caption>
+					Correlation of attendance to final grade
+				</caption>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Attendance</th>
+						<th>Grade</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td colspan="3">Survey conducted for the past 30 years!</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>Joe Blogs</td>
+						<td>100%</td>
+						<td>First</td>
+					</tr>
+					<tr>
+						<td>Fred Busybud</td>
+						<td>50%</td>
+						<td>third</td>
+					</tr>
+					<tr>
+						<td colspan="2">Span across … two columns</td>
+						<td>column 3</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<footer>	
+			<p>Created by me! Copyright 2018 &copy;</p>	
+		</footer>
+	</article>
+</body>
+</html>

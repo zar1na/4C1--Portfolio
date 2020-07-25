@@ -1,0 +1,32 @@
+section {
+	 border-top: 3px dotted;
+}
+#header {
+	border-top: 3px solid;
+}
+footer {
+	border-top: 3px solid;
+}
+#link {
+	border-top: 3px solid;
+}
+.highlight {
+	 background-color: lightpink;
+	 font-size: 18px;
+	 padding: 1em;
+}
+.change, .highlight{
+}
+
+body {			
+	max-width: 960px;
+	margin: 10px auto;
+	background-color: lightcoral;
+	opacity: .7;
+}
+html { 
+	background: url("floralshoppe.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;

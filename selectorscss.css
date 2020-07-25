@@ -1,0 +1,48 @@
+section {
+	 border-top: 3px dotted gray;
+}
+.highlight {
+	 background-color: lightpink;
+	 font-size: 16px;
+	 padding: 1em;
+}
+.highlight:hover{
+	background-color:#FFA07A;
+}
+.highlight {
+	color: black; 
+}
+.ul {
+    list-style-type: circle;
+    font-size: 16px;
+    padding: 1em;
+}
+#header {
+	border-top: 3px solid;
+}
+footer {
+	border-top: 3px solid;
+}
+#main_section {
+	border-top: 3px solid;
+}
+#link {
+	border-top: 3px solid;
+}
+
+
+body {			
+	max-width: 960px;
+	margin: 10px auto;
+	background-color: lightcoral;
+	opacity: .7;
+}
+html { 
+	background: url("ob.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+(LightSalmon 	#FFA07A)
